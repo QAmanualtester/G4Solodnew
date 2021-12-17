@@ -47,10 +47,12 @@ public class FightRunner {
         if (shootChar == 'L') {
             System.out.println("Конец игры до окончания боя! Нет победителя!");
             System.exit(0);
-        }else if (shootChar == 'l') {
+        } else if (shootChar == 'l') {
             System.out.println("Конец игры до окончания боя! Нет победителя!");
             System.exit(0);
         }
         robot.shootEnemy(String.valueOf(shootChar).toUpperCase().charAt(0));
     }
 }
+
+
